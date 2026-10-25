@@ -1,3 +1,5 @@
-print("My first AI automation project") print("My first AI automation project")
-print("Version 2: My automation is getting better!")
+"""Compatibility entry point for the LeadOps command-line interface."""
+from leadops.cli import main
 
+if __name__ == "__main__":
+    main()
